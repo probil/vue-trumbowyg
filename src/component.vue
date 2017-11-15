@@ -57,6 +57,8 @@
 
       // Watch for further changes
       this.el.on('tbwchange', this.onChange);
+      this.el.on('tbwpaste', this.onChange);
+
       // Register events
       this.registerEvents();
     },
